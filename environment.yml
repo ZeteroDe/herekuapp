@@ -1,0 +1,7 @@
+name: kinetics
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - bokeh
+  - jupyter
