@@ -1,7 +1,8 @@
-name: kinetics
+name: Python 3.8
 channels:
   - defaults
 dependencies:
+  - Python 3.8
   - numpy
   - bokeh
   - jupyter
