@@ -20,7 +20,7 @@ plot = figure(height=400, width=400, title="Reaction network. A -> B -> C",
 plot.line('x', 'y',  source=source, line_width=1, line_alpha=0.6, legend_label="A", line_color="green")
 plot.line('x', 'y2', source=source, line_width=1, line_alpha=0.6, legend_label="B", line_color="blue")
 plot.line('x', 'y3', source=source, line_width=1, line_alpha=0.6, legend_label="C", line_color="red")
-plot.xaxis.axis_label = 'Reaction tim / min'
+plot.xaxis.axis_label = 'Reaction time / min'
 plot.yaxis.axis_label = 'Concentration / %'
     # Set up widgets
 
