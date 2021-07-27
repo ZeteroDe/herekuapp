@@ -60,4 +60,4 @@ inputs = column(fir, sec)
 
 
 curdoc().add_root(row(inputs, plot, width=800))
-curdoc().title = "Sliders"
+
