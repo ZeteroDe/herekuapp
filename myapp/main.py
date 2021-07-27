@@ -4,7 +4,7 @@ from bokeh.io import curdoc, output_file, show
 from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
-
+output_file()
 N=100
 A=100
 x = np.linspace(0, N, num=100)
